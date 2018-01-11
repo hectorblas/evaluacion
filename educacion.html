@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta  charset="utf-8">
+  <meta name="viewport" content="initial-scale=1,maximumum-scale=1" , width=device-width>
+  <title>EDUCACION</title>
+</head>
+<body>
+  <header>
+  <h1 ALIGN=center>HOJA DE VIDA</h1>
+  <svg style="border: 2px solid black;" width="200px" height="200px" viewBox="0 0 200 200">
+  <image xlink:href="imagen/logo.svg" width="200px" height="200px" x="0px" y="0px"></image>
+  </svg>
+  <hr>
+  <h2>DATOS PERSONALES</h2>
+  <h3>NOMBRE:HECTOR BLAS DIONICIO</h3>
+  <h3>CIUDAD:HUANUCO</h3>
+  <h3>FECHA DE NACIMIENTO:16/01/1986</h3>
+  <hr>
+  </header>
+              <ul >
+                  <li><a href="index.html">inicio</a></li>
+                  <li><a href="educacion.html">Educacion</a></li>
+                  <li><a href="experiencia.html">Experiencia</a></li>
+              </ul>
+<hr>
+<table border>
+  <tr><th>año</th><th>institucion</th><th>lugar</th><th>¿culmino?</th>
+  </tr>
+  <tr><td>1996</td><td>c.n.i"mariscal caceres</td><td>huanuco</td><td>2003</td><tr>
+  <tr><td>2007</td><td>unheval</td><td>huanuco</td><td>2015</td><tr>
+  </tr>
+
+</table>
+<hr>
+<h2>AGREGAR ESTUDIOS</h2>
+<form class="form1" action="hector.php" method="post" onSubmit="return validacion();">
+<label for="año">año:</label>
+<select>
+  <option value="uno">2017</option>
+  <option value="dos">2018</option>
+  <option value="tres">2019</option>
+  <option value="cuatro">2020</option>
+</select><br>
+<label for="institucion">institucion:</label>
+<input type="text" name="institucion" placeholder="universidad o instituto" required><br>
+<label for="lugar">lugar:</label>
+<textarea rows="4" cols="50" placeholder="huanuco" required></textarea><br>
+<label for="lugar">culmino:</label>
+<input type="checkbox" name="items" value="culmino">si
+<input type="checkbox" name="items" value="no culmino">no<br>
+<input type="submit" value="enviar">
+</form>
+<hr>
+<h2>INFORMACION DE CONTACTO</h2>
+<li><a href="https://www.facebook.com/hbdblas">facebook</a></li>
+<li>correo:<a href="mailto:chbd_10@hotmail.com">chbd_10@hotmail.com</a></li>
+<li>celular:957889703</li>
+<li>direccion:jr.amazonas mz"s" lt"9" san luis-amarilis-huanuco</li>
+</body>
+</html>
